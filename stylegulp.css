@@ -57,7 +57,7 @@ body {
   }
   /* establishes a white background */
   .main-bkgd {
-    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+    background: #ffffff url(/media/gulp-bottom-beans.jpg) repeat-x bottom;
     padding-bottom: 300px;
   }
   /* sits inside of the white background, centered */
@@ -119,3 +119,28 @@ body {
     display: block;
     margin: 0 1rem 3rem 1rem;
   }
+/*mobile devices*/
+  @media (max-width: 550px){
+      /* navbar styling */
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .main {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+}
+/*mobile devices*/
+@media (max-width: 900px) {
+
+}

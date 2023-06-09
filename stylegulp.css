@@ -131,6 +131,10 @@ body {
     justify-content: center;
     text-align: center;
   }
+  .main-bkgd {
+    background: #ffffff url(/media/gulp-bottom-beans.jpg) repeat-x bottom;
+    padding-bottom: 300px;
+  }
   .main {
     max-width: 550px;
     margin: 0 auto;
@@ -140,7 +144,7 @@ body {
     justify-content: space-between;
   }
 }
-/*mobile devices*/
+/*tablet devices*/
 @media (max-width: 900px) {
 
 }
